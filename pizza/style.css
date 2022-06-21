@@ -1,0 +1,10 @@
+img {
+  max-width: 100%;
+  width: 255px;
+  height: 249px;
+  object-fit: cover;
+}
+
+body {
+  background-color: rgb(229, 229, 229);
+}

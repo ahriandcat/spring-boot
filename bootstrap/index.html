@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+
+    <!-- Link gg font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://techmaster.vn/resources/image/logo-techmaster/white/white_200x74.png"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end text-uppercase"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">LỘ TRÌNH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">DOANH NGHIỆP</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Khoá học
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SẢN PHẨM HỌC VIÊN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">KHAI GIẢNG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TRẢI NGHIỆM</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Về chúng tôi
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="text-dark text-uppercase" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">LỘ TRÌNH</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DOANH NGHIỆP</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Khoá học
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SẢN PHẨM HỌC VIÊN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">KHAI GIẢNG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TRẢI NGHIỆM</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Về chúng tôi
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="service pt-5">
+      <div class="container text-center">
+        <h3 class="mb-4">Vì sao nên chọn Techmaster</h3>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="service-item">
+              <div class="image">
+                <img
+                  src="https://techmaster.vn/resources/image/lecture.png"
+                  alt=""
+                />
+              </div>
+              <div class="content mt-3">
+                <p>
+                  Lựa chọn học trực tiếp tại trung tâm hoặc học trực tuyến có
+                  tương tác phù hợp với nhu cầu học viên
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item">
+              <div class="image">
+                <img
+                  src="https://techmaster.vn/resources/image/binary-code.png"
+                  alt=""
+                />
+              </div>
+              <div class="content mt-3">
+                <p>
+                  Hệ thống giáo trình chi tiết, tài liệu trực tuyến, mã nguồn
+                  phong phú cập nhật mới nhất
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item">
+              <div class="image">
+                <img
+                  src="https://techmaster.vn/resources/image/group.png"
+                  alt=""
+                />
+              </div>
+              <div class="content mt-3">
+                <p>
+                  Đội ngũ giảng viên giỏi, chấm bài 1:1, kinh nghiệm làm việc
+                  tại IBM, Microsoft, FSoft,...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item">
+              <div class="image">
+                <img
+                  src="https://techmaster.vn/resources/image/certificate.png"
+                  alt=""
+                />
+              </div>
+              <div class="content mt-3">
+                <p>
+                  Cam kết giới thiệu việc làm, hoàn lại học phí nếu không xin
+                  được việc theo đúng chuyên môn đã học.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="courses">
+      <div class="container pt-5 pb-5">
+        <h3 class="mb-4 text-center">Vì sao nên chọn Techmaster</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="course-item shadow bg-white md-4">
+              <div class="image">
+                <img
+                  src="https://techmaster.vn/resources/image/codegame.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info p-4">
+                <h5>Game Javascript</h5>
+                <p class="lw-light">
+                  Khóa Lập trình Game Javascript đào tạo học viên xây dựng hoàn
+                  thiện ứng dụng game bằng ngôn ngữ Javascript. Toàn bộ giáo
+                  trình xây dựng cho học...
+                </p>
+                <p class="fw-bold">3 tháng - 30 buổi</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-item shadow bg-white md-4">
+              <div class="image">
+                <img
+                  src="https://techmaster.vn/resources/image/codegame.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info p-4">
+                <h5>Game Javascript</h5>
+                <p class="lw-light">
+                  Khóa Lập trình Game Javascript đào tạo học viên xây dựng hoàn
+                  thiện ứng dụng game bằng ngôn ngữ Javascript. Toàn bộ giáo
+                  trình xây dựng cho học...
+                </p>
+                <p class="fw-bold">3 tháng - 30 buổi</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="course-item shadow bg-white md-4">
+              <div class="image">
+                <img
+                  src="https://techmaster.vn/resources/image/codegame.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="info p-4">
+                <h5>Game Javascript</h5>
+                <p class="lw-light">
+                  Khóa Lập trình Game Javascript đào tạo học viên xây dựng hoàn
+                  thiện ứng dụng game bằng ngôn ngữ Javascript. Toàn bộ giáo
+                  trình xây dựng cho học...
+                </p>
+                <p class="fw-bold">3 tháng - 30 buổi</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="course-item shadow bg-white md-4">
+                <div class="image">
+                  <img
+                    src="https://techmaster.vn/resources/image/codegame.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="info p-4">
+                  <h5>Game Javascript</h5>
+                  <p class="lw-light">
+                    Khóa Lập trình Game Javascript đào tạo học viên xây dựng
+                    hoàn thiện ứng dụng game bằng ngôn ngữ Javascript. Toàn bộ
+                    giáo trình xây dựng cho học...
+                  </p>
+                  <p class="fw-bold">3 tháng - 30 buổi</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="course-item shadow bg-white md-4">
+                <div class="image">
+                  <img
+                    src="https://techmaster.vn/resources/image/codegame.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="info p-4">
+                  <h5>Game Javascript</h5>
+                  <p class="lw-light">
+                    Khóa Lập trình Game Javascript đào tạo học viên xây dựng
+                    hoàn thiện ứng dụng game bằng ngôn ngữ Javascript. Toàn bộ
+                    giáo trình xây dựng cho học...
+                  </p>
+                  <p class="fw-bold">3 tháng - 30 buổi</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="course-item shadow bg-white md-4">
+                <div class="image">
+                  <img
+                    src="https://techmaster.vn/resources/image/codegame.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="info p-4">
+                  <h5>Game Javascript</h5>
+                  <p class="lw-light">
+                    Khóa Lập trình Game Javascript đào tạo học viên xây dựng
+                    hoàn thiện ứng dụng game bằng ngôn ngữ Javascript. Toàn bộ
+                    giáo trình xây dựng cho học...
+                  </p>
+                  <p class="fw-bold">3 tháng - 30 buổi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="footer-item col-lg-3">
+            <h5 class="mb-4">CHỦ SỞ HỮU WEBSITE</h5>
+            <p>Công ty TNHH TechMaster Vietnam Ltd</p>
+            <p>Số ĐKDN: 0105392153</p>
+            <p>Ngày cấp: 4-7-2011</p>
+            <p>Nơi cấp: Sở kế hoạch - đầu tư Hà Nội</p>
+            <p>Người đại diện pháp luật: Lê Minh Thu</p>
+            <p>Phụ trách nội dung: Trịnh Minh Cường</p>
+          </div>
+          <div class="footer-item col-lg-3">
+            <h5 class="mb-4">CHỦ SỞ HỮU WEBSITE</h5>
+            <p>Công ty TNHH TechMaster Vietnam Ltd</p>
+            <p>Số ĐKDN: 0105392153</p>
+            <p>Ngày cấp: 4-7-2011</p>
+            <p>Nơi cấp: Sở kế hoạch - đầu tư Hà Nội</p>
+            <p>Người đại diện pháp luật: Lê Minh Thu</p>
+            <p>Phụ trách nội dung: Trịnh Minh Cường</p>
+          </div>
+          <div class="footer-item col-lg-3">
+            <h5 class="mb-4">CHỦ SỞ HỮU WEBSITE</h5>
+            <p>Công ty TNHH TechMaster Vietnam Ltd</p>
+            <p>Số ĐKDN: 0105392153</p>
+            <p>Ngày cấp: 4-7-2011</p>
+            <p>Nơi cấp: Sở kế hoạch - đầu tư Hà Nội</p>
+            <p>Người đại diện pháp luật: Lê Minh Thu</p>
+            <p>Phụ trách nội dung: Trịnh Minh Cường</p>
+          </div>
+          <div class="footer-item col-lg-3">
+            <h5 class="mb-4">CHỦ SỞ HỮU WEBSITE</h5>
+            <p>Công ty TNHH TechMaster Vietnam Ltd</p>
+            <p>Số ĐKDN: 0105392153</p>
+            <p>Ngày cấp: 4-7-2011</p>
+            <p>Nơi cấp: Sở kế hoạch - đầu tư Hà Nội</p>
+            <p>Người đại diện pháp luật: Lê Minh Thu</p>
+            <p>Phụ trách nội dung: Trịnh Minh Cường</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
